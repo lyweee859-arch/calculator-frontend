@@ -13,7 +13,7 @@ codestyle.md    前端代码约定
 
 ## 功能
 
-数字、四则运算、小数、括号、一元正负号输入；Enter 计算、Backspace 退格、Escape 清空；历史查询、搜索、删除单条和清空；错误提示与深色模式。历史只从后端 API 获取，`localStorage` 只保存主题。
+数字、四则运算、小数、括号、一元正负号，以及 sin、cos、tan、arcsin、arccos、arctan、平方根、乘方、阶乘、abs、π、e、ln、log 和 exp。三角函数使用弧度；`log` 以 10 为底，`ln` 是自然对数。点击函数键会插入一对括号并把光标放在括号内。Enter 计算、Backspace 退格、Escape 清空；支持历史查询、搜索、删除单条和清空、错误提示与深色模式。历史只从后端 API 获取，`localStorage` 只保存主题。
 
 ## 本地运行与后端 API
 
